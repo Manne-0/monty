@@ -14,6 +14,7 @@ int execute(char *content, stack_t **stack, unsigned int line_number, FILE *file
 		{"pall", pall_},
 		{"pint", pint_},
 		{"pop", pop_},
+		{"swap", swap_},
 		{"queue", print_queue},
 		{"stack", print_stack},
 		{NULL, NULL}

@@ -64,5 +64,6 @@ void push_(stack_t **head, unsigned int count);
 void pall_(stack_t **head, unsigned int line_number);
 void pint_(stack_t **head, unsigned int line_number);
 void pop_(stack_t **head, unsigned int line_number);
+void swap_(stack_t **head, unsigned int line_number);
 int execute(char *content, stack_t **stack, unsigned int line_number, FILE *file);
 #endif

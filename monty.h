@@ -62,5 +62,6 @@ void print_queue(stack_t **head, unsigned int line_number);
 void add_node(stack_t **head, int n);
 void push_(stack_t **head, unsigned int count);
 void pall_(stack_t **head, unsigned int line_number);
+void pint_(stack_t **head, unsigned int line_number);
 int execute(char *content, stack_t **stack, unsigned int line_number, FILE *file);
 #endif

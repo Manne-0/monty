@@ -66,5 +66,6 @@ void pint_(stack_t **head, unsigned int line_number);
 void pop_(stack_t **head, unsigned int line_number);
 void swap_(stack_t **head, unsigned int line_number);
 void add_(stack_t **head, unsigned int line_number);
+void nop_(stack_t **head, unsigned int line_number);
 int execute(char *content, stack_t **stack, unsigned int line_number, FILE *file);
 #endif
